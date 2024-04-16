@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70BDE0A82BB9AB3E003BBD85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BDE0A72BB9AB3E003BBD85 /* main.swift */; };
-		70BDE0AF2BB9AC49003BBD85 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BDE0AE2BB9AC49003BBD85 /* Enemy.swift */; };
-		70BDE0B12BB9AECE003BBD85 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BDE0B02BB9AECE003BBD85 /* Dragon.swift */; };
+		704CC4FD2BC014350020B2F0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CC4FC2BC014350020B2F0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		70BDE0A22BB9AB3E003BBD85 /* CopyFiles */ = {
+		704CC4F72BC014350020B2F0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		70BDE0A42BB9AB3E003BBD85 /* Classes Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70BDE0A72BB9AB3E003BBD85 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		70BDE0AE2BB9AC49003BBD85 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
-		70BDE0B02BB9AECE003BBD85 /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		704CC4F92BC014350020B2F0 /* Protocols Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Protocols Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		704CC4FC2BC014350020B2F0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70BDE0A12BB9AB3E003BBD85 /* Frameworks */ = {
+		704CC4F62BC014350020B2F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,68 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		70BDE09B2BB9AB3E003BBD85 = {
+		704CC4F02BC014350020B2F0 = {
 			isa = PBXGroup;
 			children = (
-				70BDE0A62BB9AB3E003BBD85 /* Classes Demo */,
-				70BDE0A52BB9AB3E003BBD85 /* Products */,
+				704CC4FB2BC014350020B2F0 /* Protocols Demo */,
+				704CC4FA2BC014350020B2F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		70BDE0A52BB9AB3E003BBD85 /* Products */ = {
+		704CC4FA2BC014350020B2F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70BDE0A42BB9AB3E003BBD85 /* Classes Demo */,
+				704CC4F92BC014350020B2F0 /* Protocols Demo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70BDE0A62BB9AB3E003BBD85 /* Classes Demo */ = {
+		704CC4FB2BC014350020B2F0 /* Protocols Demo */ = {
 			isa = PBXGroup;
 			children = (
-				70BDE0A72BB9AB3E003BBD85 /* main.swift */,
-				70BDE0AE2BB9AC49003BBD85 /* Enemy.swift */,
-				70BDE0B02BB9AECE003BBD85 /* Dragon.swift */,
+				704CC4FC2BC014350020B2F0 /* main.swift */,
 			);
-			path = "Classes Demo";
+			path = "Protocols Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70BDE0A32BB9AB3E003BBD85 /* Classes Demo */ = {
+		704CC4F82BC014350020B2F0 /* Protocols Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70BDE0AB2BB9AB3E003BBD85 /* Build configuration list for PBXNativeTarget "Classes Demo" */;
+			buildConfigurationList = 704CC5002BC014350020B2F0 /* Build configuration list for PBXNativeTarget "Protocols Demo" */;
 			buildPhases = (
-				70BDE0A02BB9AB3E003BBD85 /* Sources */,
-				70BDE0A12BB9AB3E003BBD85 /* Frameworks */,
-				70BDE0A22BB9AB3E003BBD85 /* CopyFiles */,
+				704CC4F52BC014350020B2F0 /* Sources */,
+				704CC4F62BC014350020B2F0 /* Frameworks */,
+				704CC4F72BC014350020B2F0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Classes Demo";
-			productName = "Classes Demo";
-			productReference = 70BDE0A42BB9AB3E003BBD85 /* Classes Demo */;
+			name = "Protocols Demo";
+			productName = "Protocols Demo";
+			productReference = 704CC4F92BC014350020B2F0 /* Protocols Demo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		70BDE09C2BB9AB3E003BBD85 /* Project object */ = {
+		704CC4F12BC014350020B2F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					70BDE0A32BB9AB3E003BBD85 = {
+					704CC4F82BC014350020B2F0 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 70BDE09F2BB9AB3E003BBD85 /* Build configuration list for PBXProject "Classes Demo" */;
+			buildConfigurationList = 704CC4F42BC014350020B2F0 /* Build configuration list for PBXProject "Protocols Demo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,31 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 70BDE09B2BB9AB3E003BBD85;
-			productRefGroup = 70BDE0A52BB9AB3E003BBD85 /* Products */;
+			mainGroup = 704CC4F02BC014350020B2F0;
+			productRefGroup = 704CC4FA2BC014350020B2F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70BDE0A32BB9AB3E003BBD85 /* Classes Demo */,
+				704CC4F82BC014350020B2F0 /* Protocols Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		70BDE0A02BB9AB3E003BBD85 /* Sources */ = {
+		704CC4F52BC014350020B2F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BDE0AF2BB9AC49003BBD85 /* Enemy.swift in Sources */,
-				70BDE0A82BB9AB3E003BBD85 /* main.swift in Sources */,
-				70BDE0B12BB9AECE003BBD85 /* Dragon.swift in Sources */,
+				704CC4FD2BC014350020B2F0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		70BDE0A92BB9AB3E003BBD85 /* Debug */ = {
+		704CC4FE2BC014350020B2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		70BDE0AA2BB9AB3E003BBD85 /* Release */ = {
+		704CC4FF2BC014350020B2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +245,7 @@
 			};
 			name = Release;
 		};
-		70BDE0AC2BB9AB3E003BBD85 /* Debug */ = {
+		704CC5012BC014350020B2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		70BDE0AD2BB9AB3E003BBD85 /* Release */ = {
+		704CC5022BC014350020B2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -278,25 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70BDE09F2BB9AB3E003BBD85 /* Build configuration list for PBXProject "Classes Demo" */ = {
+		704CC4F42BC014350020B2F0 /* Build configuration list for PBXProject "Protocols Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70BDE0A92BB9AB3E003BBD85 /* Debug */,
-				70BDE0AA2BB9AB3E003BBD85 /* Release */,
+				704CC4FE2BC014350020B2F0 /* Debug */,
+				704CC4FF2BC014350020B2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70BDE0AB2BB9AB3E003BBD85 /* Build configuration list for PBXNativeTarget "Classes Demo" */ = {
+		704CC5002BC014350020B2F0 /* Build configuration list for PBXNativeTarget "Protocols Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70BDE0AC2BB9AB3E003BBD85 /* Debug */,
-				70BDE0AD2BB9AB3E003BBD85 /* Release */,
+				704CC5012BC014350020B2F0 /* Debug */,
+				704CC5022BC014350020B2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 70BDE09C2BB9AB3E003BBD85 /* Project object */;
+	rootObject = 704CC4F12BC014350020B2F0 /* Project object */;
 }

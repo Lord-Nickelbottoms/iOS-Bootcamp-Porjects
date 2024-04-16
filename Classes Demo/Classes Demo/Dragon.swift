@@ -1,8 +1,17 @@
-//
-//  Dragon.swift
-//  Classes Demo
-//
-//  Created by Nizaam Haffejee on 2024/03/31.
-//
 
-import Foundation
+class Dragon: Enemy {
+    var wingSpan = 2
+    
+    func talk(speech: String) {
+        print("Says: \(speech)")
+    }
+    
+    override func move() {
+        print("Fly forwards.")
+    }
+    
+    override func attack() {
+        super.attack()
+        print("Spits fire. Does \(attackStrength) damage.")
+    }
+}

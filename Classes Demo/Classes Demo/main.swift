@@ -1,11 +1,9 @@
-//
-//  main.swift
-//  Classes Demo
-//
-//  Created by Nizaam Haffejee on 2024/03/31.
-//
 
-import Foundation
+let skeleton = Enemy()
 
-print("Hello, World!")
-
+let dragon = Dragon()
+dragon.wingSpan = 5
+dragon.talk(speech: "My teeth are swords! My claws are spears! My wings are a hurricane!")
+dragon.move()
+dragon.attack()
+dragon.attackStrength = 15
